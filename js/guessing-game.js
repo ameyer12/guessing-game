@@ -38,7 +38,7 @@ submitButton.addEventListener('click', function
     const guess = parseInt(input.value)
     if(winningNumber === guess){
         console.log('you win!')
-    }
+    } 
 });
 
 

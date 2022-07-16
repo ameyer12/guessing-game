@@ -3,29 +3,36 @@
 
   <head>
     <meta charset="UTF-8">
-    <title>Guessing Game</title>
+    <title>The Guessing Game</title>
     <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- the MAIN.CSS file is linked here -->
   </head>
 
   <body>
     <header>
-      <h1>Guessing Game</h1>
+      <h1>The Guessing Game</h1>
     </header>
     <main>
-      <h2>Previous Guesses</h2>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
+      <div class="div1">
+        <input type="text">
+      </div>
+      <div class="div2">
+        <button id="submit-button">Submit Guess</button>
+        <button id="play-again">Play Again</button>
+        <button id="hint-button">Hint</button>
+      </div>
+      <h2>Previous Guesses</h3>
+      <div class="div3">
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </div>
       <h3 id="guess-hint">One Guess Remaining, you are close!</h3>
-      <input type="text">
-      <button id="submit-button">Submit Guess</button>
-      <button id="play-again">Play Again</button>
-      <button id="hint-button">Hint</button>
     </main>
 
 

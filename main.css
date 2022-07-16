@@ -1,4 +1,144 @@
-/* h1 {
+@import url('https://fonts.googleapis.com/css2?family=Fascinate&family=Inter:wght@500&family=Montserrat&family=Oswald:wght@500&family=Roboto+Mono:wght@500&display=swap');
+
+
+* { 
+    font-family: 'Fascinate', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Mono', monospace;  
+}
+
+body {
+    margin-top: 1%;
+    background-color: #272727;
+    color: #747474;
+    overflow: scroll;
+}
+
+h1 {
     display: flex;
     justify-content: center;
-} */
+    margin-top: 5%;
+    font-size: 35pt;
+    
+}
+
+.div1 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+input {
+    padding-top: 3.5rem;
+    padding-bottom: 3.5rem;
+    border-radius: 5%;
+    border: 0.2rem solid #747474;
+    text-align: center;
+}
+
+.div2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+}
+
+#submit-button {
+    padding: 1%;
+    background-color: aqua;
+    border-radius: 5%;
+    border: 0.2rem solid #747474;
+}
+
+#play-again {
+    margin-left: 0.5%;
+    padding: 1%;
+    background-color: aqua;
+    border-radius: 5%;
+    border: 0.2rem solid #747474;
+}
+
+#hint-button {
+    margin-left: 0.5%;
+    padding: 1%;
+    background-color: aqua;
+    border-radius: 0.2rem;
+    border: 0.2rem solid #747474;
+}
+.div3 {
+    display: flex;
+    justify-content: center;
+    margin-top: 2%;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    width: 100%;
+    margin-right: 2.5rem;
+}
+
+li {
+    background-color: white;
+    text-align: center;
+    justify-content: center;
+    padding: 2rem;
+    border-radius: 5%;
+    border: 0.2rem solid #747474;
+    color: black;
+    margin-right: 1%;
+    margin-left: 1%;
+    overflow: scroll;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    font-size: 15pt;
+}
+
+#guess-hint {
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+    font-size: 15pt;
+}
+
+@media (max-width: 495px){
+    header{
+        text-align: center;
+    }
+    #guess-hint {
+        margin-top: 10%;
+    }
+}
+
+
+@media (max-width: 440px){
+    ul {
+        flex-direction: column;
+        flex-basis: 0;
+        margin-top: -2%;
+        margin-bottom: -4%;
+    }
+
+    li {
+        margin-top: 0.5rem;
+    }
+    #guess-hint {
+        text-align: center;
+    }
+}
+
+
+/* 320px — 480px: Mobile devices
+481px — 768px: iPads, Tablets
+769px — 1024px: Small screens, laptops
+1025px — 1200px: Desktops, large screens
+1201px and more —  Extra large screens, TV */
